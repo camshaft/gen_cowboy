@@ -1,0 +1,12 @@
+{application, gen_cowboy, [
+  {description, "generic cowboy server with some nice defaults"},
+  {vsn, "0.1.0"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {mod, {gen_cowboy_app, []}},
+  {env, []}
+]}.
